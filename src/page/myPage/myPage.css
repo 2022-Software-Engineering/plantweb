@@ -1,0 +1,29 @@
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+#interestList_div{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+hr{
+    width: 1200px;
+    border: 0;
+    height: 2px;
+    background: black;
+}
+
+.title_div{
+    margin-left: 20%;
+}
+.myPageTitle{
+    font-size:xx-large;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
