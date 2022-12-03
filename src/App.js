@@ -9,11 +9,11 @@ import {ShowDetails} from "./page/showDetails/showDetails"
 import {MyPage} from "./page/myPage/myPage"
 
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const Router = () => {
   return (
-     <HashRouter>
+     <BrowserRouter>
         <Routes>
            <Route exact path="/" element ={<Main/>} />
            <Route exact path="/login" element ={<Login/>} />
@@ -21,7 +21,7 @@ const Router = () => {
            <Route exact path="/details" element ={<ShowDetails/>} />
            <Route exact path="/myPage" element ={<MyPage/>} />
         </Routes>
-     </HashRouter>
+     </BrowserRouter>
   );
  
 }

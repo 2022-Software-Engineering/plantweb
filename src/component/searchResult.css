@@ -1,5 +1,5 @@
 table, td, th{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 75, 16);
     border-collapse: collapse;
 }
 
@@ -11,13 +11,7 @@ table, td, th{
 
 td{
     width: 900px;
-    font-size: xx-large;
-}
-
-p{
-    font-size:x-large;
-    margin-bottom: 10px;
-}
+} 
 
 img{
     width: 200px;
